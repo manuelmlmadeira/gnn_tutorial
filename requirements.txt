@@ -1,11 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
 matplotlib==3.10.1
 networkx==3.3
 numpy==2.2.4
 scikit_learn==1.6.1
 scipy==1.15.2
+torch==2.4.0+cu118
 torchmetrics
-torchvision
-tqdm==4.66.5
 torch_geometric==2.6.1
-torch==2.4.0
-ipykernel==6.29.5
+tqdm==4.66.5
