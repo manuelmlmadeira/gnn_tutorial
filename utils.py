@@ -139,7 +139,7 @@ def train_gnn_batched(loader_train, model, loss_fn, optimizer, n_epochs, device)
     epoch_loss_list = []
     for epoch in range(n_epochs):
         # Your solution here #######################################################
-
+        raise NotImplementedError("Your solution here")
         # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
         avg_loss = sum(batch_losses) / len(batch_losses)
         epoch_loss_list.append(avg_loss)
